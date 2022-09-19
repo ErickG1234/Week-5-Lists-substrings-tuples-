@@ -1,4 +1,4 @@
-# my new repo: Erick Gutierrez 
+# my new repo: Erick Gutierrez
 
 # remember to fork this repl into your own account
 # create a new github project for this. call it week 4 review : lists, strings manipulations, tuples, substrings
@@ -6,8 +6,8 @@
 ##############################################################################################################
 # basic review
 # Find and display on the screen which character occupies the fifth position within the following word:
- # computer = "computer"
- # print(computer[4])
+# computer = "computer"
+# print(computer[4])
 
 # Find and display the index of the last occurrence of the word "practice" in the following sentence:
 newSentence = "In theory, theory and practice are the same. In practice, they are not."
@@ -16,7 +16,7 @@ print(newSentence.rindex("practice"))
 ###############################################Review############################################################
 #####################################challenge 1################################################################
 # Create a list with 5 elements, inside the variable my_list. You can include strings, booleans, numbers, etc.
-my_list = ["bay","ddaa", 34, 56, 89, 102]
+my_list = ["bay", "ddaa", 34, 56, 89, 102]
 # .append = adds to the end of the list
 my_list.append("jewlery")
 print(my_list)
@@ -28,20 +28,26 @@ my_list.remove("ddaa")
 print(my_list)
 my_list.insert(3, "bobba bobba")
 print(my_list)
+#join both list together
+
+my_list2 = ["julie", "terrance", "jugga", "star trek"]
+my_list3 = my_list + my_list2
+print(my_list3)
+
 
 # Add the element "motorcycle" to the following list of means of transportation:
 
-# transportation_means = ["plane", "car", "ship", "bicycle"]
-# transportation_means.append("motorcycle")
-# #append adds an element to the end
-# print(transportation_means)
-# transportation_means.remove("car")
-# print(transportation_means)
-# newTrans = transportation_means.pop()
-# #pop removes the last element
-# print("my new trans is " +newTrans)
-# transportation_means.insert(1,"tesla")
-# print(transportation_means)
+transportation_means = ["plane", "car", "ship", "bicycle"]
+transportation_means.append("motorcycle")
+#append adds an element to the end
+print(transportation_means)
+transportation_means.remove("car")
+print(transportation_means)
+newTrans = transportation_means.pop()
+#pop removes the last element
+print("my new trans is " +newTrans)
+transportation_means.insert(1,"tesla")
+print(transportation_means)
 # You must not modify the already supplied line of code, but must use the appropriate list method to add a new element.
 
 # here are two lists:
@@ -49,30 +55,34 @@ luckyNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15]
 friends = ["Kevin", "Karen", "jim", "oscar", "tim", "lord tennyson"]
 # instructions:
 ######join both lists together in a new list
-
+my_list3 = luckyNumbers + friends
 ###### print the new list out
-# print(newList2)
+print(my_list3)
 ###### print out the first item in the list
-
+print(my_list[0])
 ###### remove the last item of the new list
-
+my_list.pop
 ###### print the new list out without the last item
-
+print(my_list)
 ###### add three more items to the end of the list
-
+my_list.append("Tyrone")
+my_list.append("Arturo")
+my_list.append("DeMarcus")
 ###### print the last item in the new list
-
+print(my_list)
 ###### sort the list
-
+# print(luckyNumbers())
 ###### find a way to insert a new item at the 3rd position of the list
-
+my_list.insert(3, "bobba bobba")
 ###### print the new list out
-
+print(my_list)
 ##### reverse the list
-
+my_list.reverse()
 ###### print the new list out
+print(my_list)
 ###### print out the length of the new list
-
+size = len(my_list)
+print(size)
 #####################################challenge 2#######################################################
 # Join the following list into a string, separating each item with a space. Use the appropriate list/string method, and display the result.
 word_list = ["Simple", "is", "better", "than", "complex."]
@@ -92,11 +102,9 @@ text3 = "It's great to work with computers. They don't argue, they remember ever
 # print(text3.reverse())
 
 # Extract the first word of the following sentence using slicing, and display it on the screen:
-sentence ="Controlling complexity is the essence of programming"
+sentence = "Controlling complexity is the essence of programming"
 
 #carlos did this one
-
-
 
 # create a text input that asks for choice of food
 # foodChoice = input("what is your choice in food?")
