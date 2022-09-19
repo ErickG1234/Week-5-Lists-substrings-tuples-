@@ -34,7 +34,6 @@ my_list2 = ["julie", "terrance", "jugga", "star trek"]
 my_list3 = my_list + my_list2
 print(my_list3)
 
-
 # Add the element "motorcycle" to the following list of means of transportation:
 
 transportation_means = ["plane", "car", "ship", "bicycle"]
@@ -45,8 +44,8 @@ transportation_means.remove("car")
 print(transportation_means)
 newTrans = transportation_means.pop()
 #pop removes the last element
-print("my new trans is " +newTrans)
-transportation_means.insert(1,"tesla")
+print("my new trans is " + newTrans)
+transportation_means.insert(1, "tesla")
 print(transportation_means)
 # You must not modify the already supplied line of code, but must use the appropriate list method to add a new element.
 
@@ -86,16 +85,16 @@ print(size)
 #####################################challenge 2#######################################################
 # Join the following list into a string, separating each item with a space. Use the appropriate list/string method, and display the result.
 word_list = ["Simple", "is", "better", "than", "complex."]
-
+print(" ".join(word_list))
 # Print the following text in uppercase, using the specific string method:
 
 text1 = "Especially in electronic communications, writing in all caps is equivalent to yelling."
-
+text1.upper
 #substrings
 # Take every third character starting from the ninth to the end of the sentence, and print the result.
 
 text2 = "Never trust a computer you can't throw out a window"
-
+print(text2[8::3])
 # Reverses the position of all the characters in the following sentence and displays the result on the screen.
 
 text3 = "It's great to work with computers. They don't argue, they remember everything and they don't drink your beer"
